@@ -4,8 +4,8 @@ import Outputrow from './Outputrow';
 const Output=(props)=>{
     return(
         <div>
-            <Outputrow value={props.answer} textSize={{fontSize:"20px"}}  />
-            <Outputrow value={props.user}  />
+            <Outputrow value={props.answer} textSize={{fontSize:"40px"}}  />
+            <Outputrow value={props.user} textSize={{fontSize:"40px"}} />
         </div>
     )
 }
